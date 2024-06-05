@@ -1,0 +1,124 @@
+html {
+  font-size: 10px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #b1cffc;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  max-width: 80rem;
+  height: calc(100vh - 10rem);
+  margin: 5rem auto;
+  background-color: #b1cffc;
+  background-color: #cde1ff;
+  border-radius: 25px;
+}
+
+.main-heading {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 5.2rem 0;
+  font-size: 4.8rem;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+.search-container {
+  width: 50rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.search-input {
+  width: 35rem;
+  height: 5rem;
+  outline: none;
+  border: 5px solid #b1cffc;
+  border-radius: 12px;
+  padding-left: 2rem;
+  font-size: 2rem;
+  background-color: #b1cffc;
+  color: #666;
+}
+
+.search-btn {
+  display: inline-block;
+  height: 5rem;
+  padding: 0 2.5rem;
+  font-size: 2rem;
+  font-weight: 900;
+  outline: none;
+  border: 1px solid #b1cffc;
+  border-radius: 12px;
+  background-color: #b1cffc;
+  color: #666;
+}
+
+.search-result {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  list-style: none;
+  width: 80%;
+  height: calc(100vh - 45rem);
+  margin: 0 auto;
+}
+.scroll {
+  overflow-y: scroll;
+}
+.scroll::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: #b1cffc;
+  border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.meal-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.meal-img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.meal-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.meal-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.publisher {
+  font-size: 2.4rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.error-message {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #555;
+}
